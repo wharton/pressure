@@ -92,6 +92,7 @@ class Adapter {
       this.nativeSupport = false;
     } else {
       this.setPressed(false);
+      this.runClosure('end');
     }
   }
 
